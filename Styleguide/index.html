@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="PPSupplyMono-Ultralight.woff2" as="font" type="font/woff2" crossorigin>
+
+    <title>Portfolio - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="normalize">
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Portfolio Style Guide</h1>
+
+
+      <nav class = "nav">
+        <a href="#interactive_elements">INTERACTIVE ELEMENTS</a>
+        <a href="#text_elements">TEXT ELEMENTS</a>
+        <a href="#combined_elements">COMBINED ELEMENTS</a>
+        <a href="../index.html">LANDING PAGE TEMPLATE</a>
+        <a href="../candlelight.html">PROJECT TEMPLATE</a>
+        <a href="../citations.html">CITATIONS</a>
+      </nav>
+    </header>
+
+    <h2>INTERACTIVE ELEMENTS</h2>
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+
+
+      <section class="intElement1">
+        <h3>In-text link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.infoLink</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;Click &lt;a href="https://www.sfu.ca/~jgs7/01-HTML-Intro-Starter_Files/"class="link"&gt;this link&lt;/a&gt;for more info&lt;/p&gt; </code>
+        <p>Click <a href="https://www.sfu.ca/~jgs7/01-HTML-Intro-Starter_Files/" class="infoLink">this link</a> for more info </p>
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="intElement2">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.defaultButton</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;input class="defaultButton "type="button" name="defaultButton" value="Default Button"&gt;</code>
+        <input class="defaultButton" type="button" name="defaultButton" value="Default Button">
+
+      </section>
+
+
+      <section class="intElement3">
+        <h3>Submit/Reset Buttons</h3>
+
+          <h4>CSS selector:</h4>
+          <p>.navSubmit</p>
+          <p>.navReset</p>
+
+          <h4>Sample code:</h4>
+          <code> &lt;button type="navSubmit" class="Submit" value="Submit"&gt;Submit&lt;/button&gt;<br>
+          &lt;button type="navReset"  class="Reset" value="Reset"&gt;Reset&lt;/button&gt;</code>
+          <button type="Submit" class="navSubmit" value="Submit">Submit</button>
+          <button type="Reset" class="navReset" value="Reset">Reset</button>
+      </section>
+
+
+      <section class="intElement4">
+        <h3>Text Input Field with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.navInput</p>
+
+
+        <h4>Sample code:</h4>
+
+        <code>&lt;label for="textInput"&gt;Text Input&lt;/label&gt;<br>
+
+        &lt;input type="text" id="navInput" name="input"&gt;</code>
+
+        <label for="textInput">Text Input</label>
+        <input type="text" id="textInput" name="input">
+      </section>
+
+
+      <section class="intElement5">
+        <h3>Radio Button with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>#radioInput</p>
+
+
+        <h4>Sample code:</h4>
+
+        <code>&lt;label for="radioInput"&gt;Radio Input&lt;/label&gt;<br>
+        &lt;input type="radio" id="radioInput" name="radioInput"&gt;</code>
+
+        <label for="radioInput">Radio Input</label>
+        <input type="radio" id="radioInput" name="radioInput">
+      </section>
+
+
+      <section class="intElement6">
+        <h3>Image as a Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.imgLink</p>
+
+        <h4>Sample code:</h4>
+
+        <code>&lt;a href="https://www.sfu.ca/~jgs7/Portfolio%20Website/"&gt;&lt;img src="img/candlelightThumb1100×575.png" class="imgLink" width="500" height="261.36" alt="A blue deck of playing cards on a blank background"&gt;&lt;/a&gt;</code>
+        <a href="https://www.sfu.ca/~jgs7/Portfolio%20Website/"><img src="img/candlelightThumb1100×575.png" class="imgLink" width="500" height="261.36" alt="A blue deck of playing cards on a blank background"></a>
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <h2>Text Elements</h2>
+    <section id="text_elements">
+
+
+      <section class="textElement1">
+        <h3>Headings</h3>
+
+        <h4>CSS selector:</h4>
+        <p>h1</p>
+        <p>h2</p>
+        <p>h3</p>
+        <p>h4</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h1&gt; headings &lt;/h1&gt;&lt;h2&gt; headings &lt;/h2&gt;&lt;h3&gt; headings &lt;/h3&gt;&lt;h4&gt; headings &lt;/h4&gt;</code>
+        <h1> HEADING 01 </h1>
+          <h2> Heading 02 </h2>
+            <h3> Heading 03 </h3>
+              <h4> Heading 04 </h4>
+      </section>
+
+      <section class="textElement2">
+        <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+        <p>p</p>
+
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;The body copy should look like this. Text size should be less than 25px, and font weight should be extra light.
+            body copy are used for descriptions. Product details, extra information, and expanded story should use this style of body copy.&lt;/p&gt;
+
+            &lt;p&gt;Body copy should be kept clean and simple focusing on accessibility using breaks when needed to split large paragraphs and separate sections.&lt;/p&gt;
+        </code>
+        <p>The body copy should look like this. Text size should be less than 25px, and font weight should be extra light.
+            body copy are used for descriptions. Product details, extra information, and expanded story should use this style of body copy.</p>
+
+        <p>Body copy should be kept clean and simple focusing on accessibility using breaks when needed to split large paragraphs and separate sections.</p>
+      </section>
+
+      <section class="textElement3">
+        <h3>Numbered Lists</h3>
+
+        <h4>CSS selector:</h4>
+        <p>ol</p>
+
+
+        <h4>Sample code:</h4>
+        <code>&lt;ol&gt;
+          &lt;li&gt; One &lt;/li&gt;
+          &lt;li&gt; Two &lt;/li&gt;
+          &lt;li&gt; Three &lt;/li&gt;
+          &lt;li&gt; Four &lt;/li&gt;
+        &lt;/ol&gt;</code>
+        <ol>
+          <li> One </li>
+          <li> Two </li>
+          <li> Three </li>
+          <li> Four </li>
+        </ol>
+      </section>
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.nav</p>
+
+
+        <h4>Sample code:</h4>
+        <code>&lt;nav class="nav"&gt;
+          &lt;a href="index.html" class="navHome"&gt; HOME &lt;/a&gt;<br>
+          &lt;a href="index.html" class="navAbout"&gt; ABOUT &lt;/a&gt;<br>
+          &lt;a href="index.html" class="navContact"&gt; EXTRAS &lt;/a&gt;<br>
+        &lt;/nav&gt;</code>
+        <nav class="nav">
+
+            <a href="index.html" class="navHome"> HOME </a>
+            <a href="index.html" class="navAbout"> ABOUT </a>
+            <a href="index.html" class="navContact"> EXTRAS </a>
+
+        </nav>
+      </section>
+        <h3>Project Showcase</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.content</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;section class="content"&gt; <br>
+          &lt;div class="candleLight"&gt;<br>
+            &lt;div class="candleLightContent"&gt;<br>
+              &lt;p&gt;CANDLELIGHT CONCERTS - ART DIRECTION&lt;/p&gt;<br>
+              &lt;p&gt;SS2023 TEAM&lt;/p&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class="contentImg"&gt;<br>
+              &lt;a href=""&gt;&lt;img class=""src ="img/candlelightThumb1100×575.png" alt="black and white thumbnail for a project"&gt;&lt;/a&gt;<br>
+            &lt;/div&gt;<br>
+          &lt;/div&gt;<br>
+        &lt;/section&gt;</code>
+
+        <section class="content">
+          <div class="candleLight">
+            <div class="candleLightContent">
+              <p>CANDLELIGHT CONCERTS - ART DIRECTION</p>
+              <p>SS2023 TEAM</p>
+            </div>
+            <div class="contentImg">
+              <a href=""><img class=""src ="img/candlelightThumb1100×575.png" alt="black and white thumbnail for a project"></a>
+            </div>
+          </div>
+        </section>
+
+      </section>
+        <h3>Content detail 1</h3>
+        <section class="element">
+        <h4>CSS selector:</h4>
+        <p>.detail1</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;section class="detail1"&gt;<br>
+            &lt;div class="detailImg"&gt;<br>
+              &lt;img class=""src ="img/placeholder.png" alt="placeholder"&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class="detailContent"&gt;<br>
+              &lt;h1&gt;Header&lt;/h1&gt;<br>
+              &lt;div class="detailPara"&gt;<br>
+                &lt;p&gt;This is filler text, describe what happened in the project here, contribution,<br>
+                  struggles, and solutions. Why did we do what we did and how we ended up here.&lt;/p&gt;<br>
+
+                &lt;p&gt;There probably will be two sections of text so here is another text box that will<br>
+                 most likely be needed to describe the project.&lt;/p&gt;<br>
+              &lt;/div&gt;<br>
+            &lt;/div&gt;<br>
+        &lt;/section&gt;</code>
+
+        <section class="detail1">
+            <div class="detailImg">
+              <img class=""src ="img/placeholder.png" alt="placeholder">
+            </div>
+            <div class="detailContent">
+              <h1>Header</h1>
+              <div class="detailPara">
+                <p>This is filler text, describe what happened in the project here, contribution,
+                  struggles, and solutions. Why did we do what we did and how we ended up here.</p>
+
+                <p>There probably will be two sections of text so here is another text box that will
+                 most likely be needed to describe the project.</p>
+              </div>
+            </div>
+        </section>
+      </section>
+
+    
+    </section>
+      <section id="branding">
+        <h1>Branding Basics</h1>
+
+        <h2>Who am I to potential employers?</h2>
+
+        <p>I am a user centric designer focusing on marginalised groups and accessibility. I have a passion for HCI and gamified interfaces,
+          and love learning more about how users interact with products and interfaces. I create speculative designs based on human interaction principles,
+           applying my hybrid skill set in design, code, and material fabrication to create solutions for wicked problems.I am a UX designer aiming to showcase
+           my work with HCI and user interation principles. My portfolio follows branding that makes use of
+          texture and minimal coloured accents to draw attention to elements. My motif is that of a notebook, connecting back to my background in material fabrication
+          as well as my passion for film photography.</p>
+
+          <p>I enjoy making pleasing yet usable designs. As a designer I believe that my page, as a designer, should be elegantly presented and highlight my ability to command layout and balance of the page
+          .</p>
+
+        <div class="brandingBox">
+            <img class="brandingimg1" src="img/typeStyling1920x1080.png" width="960" height="540" alt="type styling">
+            <p class="brandingp1">For the typefaces, PP mori allowed for a straightforward and easy to read experience. I felt that a simple sans serif like PP Mori
+            would represent my designs and my personality well. Headings being Italicied help diferentiate itself from the hierarchy, and combined with the lighter coloured
+          h2 also in PP Mori it separates the hierarchy well. PP mori is simple yet has a hint of character which diferentiates itself from other san serifs.</p>
+
+            <img class="brandingimg2" src="img/systemFonts1920x1080.png" width="960" height="540" alt="system font styling ">
+            <p lass="brandingp2">Going into usability, System fonts should be used if the above mentioned typefaces are not available or cannot be injected in the markup. Choosing from the list of system typefaces available,
+            Arial italics for h1, verdana regular for h2 and Arial regular for body copy are the most similar to the typefaces above. They are quite similar, however lack the character PP Mori provides. However, they still have similar qualities and funtion the same roles.</p>
+
+            <img class="brandingimg3" src="img/colourStyling1920x1080.png" width="960" height="540" alt="colour styling">
+            <p lass="brandingp3">I like to focus on colour and texture in my work. This is no different in my portfolio. My background is made of a paperlike texture, making use of a noise
+            pattern. This is reminicient of film photography of which inspires some of my work. Colour wise, It is quite simple, leaning into whites, greys, and blacks with loud pops of coloured accents
+          . These accents are for CTA and help users learn of the site patterns and aids them in intelligence, using simple semiotics to denote interactable elements.</p>
+        </div>
+
+
+
+      </section>
+
+  </body>
+</html>
