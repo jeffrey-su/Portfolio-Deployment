@@ -130,9 +130,10 @@ p{
   transition-timing-function: ease-in-out;
   transition: background-color 0.5s ease-in-out;
 
-	:hover, :focus
+	:hover, :focus{
 	  background-color: #767676;
 		color: #ffffff;
+	}
 }
 
 .intro{
@@ -152,11 +153,12 @@ p{
 }
 
 .dots {
-  padding-top: 3rem;
-  width: auto;
+	display: flex;
+	padding-top: 3rem;
+	justify-content: center;
+	width: auto;
 	height: auto;
 	max-width: 100%;
-
 	transition-timing-function: ease-in-out;
 	transition: transform $transDur;
 
@@ -221,6 +223,7 @@ p{
 	padding-top: 10%;
 	margin-left: $marginSpace;
 	margin-right: $marginSpace;
+	margin-bottom: 50vh;
 
 }
 
@@ -255,14 +258,14 @@ p{
 	margin-top: 20vh;
 }
 
-.itServices{
-	margin-top: 20vh;
-}
+// .itServices{
+// 	margin-top: 20vh;
+// }
 
-.betterMeals{
-	margin-top: 30vh;
-	margin-bottom: 50vh;
-}
+// .betterMeals{
+// 	margin-top: 30vh;
+// 	margin-bottom: 50vh;	
+// }
 /* Candlelight Project */
 .projectHeader{
 	margin-top: 20vh;
