@@ -12,4 +12,15 @@ const positionElement = (e)=> {
 
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.classList.remove("hidden");
+});
+
+function fadeOutAndRedirect(url) {
+  document.body.classList.add("hidden");
+  setTimeout(() => {
+      window.location.href = url;
+  }, 400); // Match the transition duration
+}
+
 window.addEventListener('mousemove', positionElement)
