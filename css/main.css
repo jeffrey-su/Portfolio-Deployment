@@ -42,8 +42,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #323237;
-  transition: opacity 0.4s ease-in-out;
+  background-color: #ffffff;
+  transition: opacity 0.8s ease-in-out;
 }
 
 @keyframes fadeInAnimation {
@@ -95,7 +95,7 @@ a {
   font-weight: 200;
   font-size: 1rem;
   transition-timing-function: ease-in-out;
-  transition: color 0.3s;
+  transition: color 0.8s;
 }
 a :hover {
   color: #FF532E;
@@ -150,7 +150,7 @@ p {
   height: auto;
   max-width: 100%;
   transition-timing-function: ease-in-out;
-  transition: transform 0.3s;
+  transition: transform 0.8s;
 }
 .dots :hover {
   transform: scale(1.01);
@@ -168,7 +168,7 @@ p {
   font-size: 20px;
   color: black;
   transition-timing-function: ease-in-out;
-  transition: color 0.3s;
+  transition: color 0.8s;
   padding-top: 2rem;
 }
 #nav a:hover, #nav a:focus {
@@ -183,7 +183,7 @@ p {
   z-index: 12;
   position: fixed;
   transition-timing-function: ease-in-out;
-  transition: transform 0.3s;
+  transition: transform 0.8s;
 }
 .arrow :hover {
   transform: scale(1.2);
@@ -191,7 +191,7 @@ p {
 
 .arrowSide {
   transition-timing-function: ease-in-out;
-  transition: transform 0.3s;
+  transition: transform 0.8s;
 }
 .arrowSide :hover {
   transform: scale(1.2);
@@ -295,7 +295,7 @@ p {
 }
 .detail a {
   transition-timing-function: ease-in-out;
-  transition: color 0.3s;
+  transition: color 0.8s;
 }
 .detail a :hover {
   color: #FF532E;
@@ -401,7 +401,7 @@ footer p {
 .footerContent p {
   color: white;
   transition-timing-function: ease-in-out;
-  transition: color 0.3s;
+  transition: color 0.8s;
 }
 .footerContent p:hover, .footerContent p:focus {
   text-decoration: none;
@@ -414,7 +414,7 @@ footer p {
 
 .linkedIn {
   color: #FF532E;
-  transition-duration: 0.3s;
+  transition-duration: 0.8s;
 }
 
 @media (width < 1400px) {
@@ -516,7 +516,7 @@ footer p {
     font-size: 0.75rem;
     color: black;
     transition-timing-function: ease-in-out;
-    transition: color 0.3s;
+    transition: color 0.8s;
     padding-top: 2rem;
   }
   #nav a:hover, #nav a:focus {

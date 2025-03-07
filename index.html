@@ -15,16 +15,19 @@
     <link href="css/main.css" rel="stylesheet">
 
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/lenis@1.2.0/dist/lenis.min.js"></script> 
 
     <link rel="icon" href="img/dot27x27.svg">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.2.0/dist/lenis.css">
 
     <title>Jeffrey Su</title>
   </head>
 
   <body>
     <div class="small"></div>
-    <img src="img/frame1920x1080.png" class="frame" alt="" draggable="false">
     <div id="arrowPosition">
+    <img src="img/frame1920x1080.png" class="frame" alt="" draggable="false">
+    
 
       <!-- <div class="cursor"></div> -->
       <div class="arrow">
@@ -57,7 +60,7 @@
             <p>SS2023 TEAM</p>
           </div>
           <div class="contentImg">
-            <a href="candlelight.html" id="thumb"><img src ="img/candlelightThumb1100×575.png" draggable="false" alt="black and white thumbnail for a project"></a>
+            <a  onclick="fadeOutAndRedirect('candlelight.html')" id="thumb"><img src ="img/candlelightThumb1100×575.png" draggable="false" alt="black and white thumbnail for a project"></a>
           </div>
         </div>
 
@@ -67,7 +70,7 @@
             <p>FW2022 TEAM</p>
           </div>
           <div class="contentImg">
-            <a href="goSFU.html"><img class=""src ="img/goSFUThumb1100×575.png" draggable="false" alt="black and white thumbnail for a project"></a>
+            <a  onclick="fadeOutAndRedirect('goSFU.html')"><img class=""src ="img/goSFUThumb1100×575.png" draggable="false" alt="black and white thumbnail for a project"></a>
           </div>
         </div>
 
