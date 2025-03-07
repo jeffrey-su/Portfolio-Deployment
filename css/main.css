@@ -73,7 +73,7 @@ h2 {
   font-family: "PPMori-Extralight", "Tahoma", sans-serif;
   font-weight: 200;
   font-size: 2rem;
-  color: #9D9B9B;
+  color: #9d9b9b;
 }
 
 h3 {
@@ -98,7 +98,7 @@ a {
   transition: color 0.8s;
 }
 a :hover {
-  color: #FF532E;
+  color: #ff532e;
   cursor: url("../img/cursorTilt.png"), auto;
   text-decoration: none;
 }
@@ -113,7 +113,7 @@ p {
 .defaultButton {
   font-family: "PPMori-Extralight", "Impact", sans-serif;
   font-size: 100%;
-  background-color: #FF3D00;
+  background-color: #ff3d00;
   border: none;
   border-radius: 25rem;
   color: #ffffff;
@@ -123,7 +123,8 @@ p {
   transition-timing-function: ease-in-out;
   transition: background-color 0.5s ease-in-out;
 }
-.defaultButton :hover, .defaultButton :focus {
+.defaultButton :hover,
+.defaultButton :focus {
   background-color: #767676;
   color: #ffffff;
 }
@@ -171,9 +172,10 @@ p {
   transition: color 0.8s;
   padding-top: 2rem;
 }
-#nav a:hover, #nav a:focus {
+#nav a:hover,
+#nav a:focus {
   text-decoration: none;
-  color: #FF532E;
+  color: #ff532e;
   cursor: url("../img/cursorTilt.png"), auto;
 }
 
@@ -298,7 +300,7 @@ p {
   transition: color 0.8s;
 }
 .detail a :hover {
-  color: #FF532E;
+  color: #ff532e;
   cursor: url("../img/cursorTilt.png"), auto;
   text-decoration: none;
 }
@@ -384,7 +386,7 @@ footer p {
   font-family: "PP Mori", monospace;
   font-weight: 200;
   font-size: 16px;
-  color: #FAFAFA;
+  color: #fafafa;
 }
 
 .footer {
@@ -403,9 +405,10 @@ footer p {
   transition-timing-function: ease-in-out;
   transition: color 0.8s;
 }
-.footerContent p:hover, .footerContent p:focus {
+.footerContent p:hover,
+.footerContent p:focus {
   text-decoration: none;
-  color: #FF532E;
+  color: #ff532e;
 }
 
 .footerInfo {
@@ -413,7 +416,7 @@ footer p {
 }
 
 .linkedIn {
-  color: #FF532E;
+  color: #ff532e;
   transition-duration: 0.8s;
 }
 
@@ -519,9 +522,10 @@ footer p {
     transition: color 0.8s;
     padding-top: 2rem;
   }
-  #nav a:hover, #nav a:focus {
+  #nav a:hover,
+  #nav a:focus {
     text-decoration: none;
-    color: #FF532E;
+    color: #ff532e;
     cursor: url("../img/cursorTilt.png"), auto;
   }
   p {
